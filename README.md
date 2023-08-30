@@ -1,6 +1,7 @@
 # huiva_web
 
 This is an official website open source project based on vue3
+这是一个基于vue3开发的官网开源项目
 
 ## Recommended IDE Setup
 
