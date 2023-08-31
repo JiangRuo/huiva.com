@@ -1,5 +1,5 @@
 <script setup>
-import Header from './components/Header.vue'
+  import Header from './components/Header.vue'
 </script>
 
 <template>
@@ -7,6 +7,7 @@ import Header from './components/Header.vue'
   <header>
     <Header></Header>
   </header>
-
+  <main>
+    <router-view></router-view>
+  </main>
 </template>
-
