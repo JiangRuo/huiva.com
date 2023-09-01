@@ -14,4 +14,8 @@ a{
 }
 :root{
   --backgrH:0;
+  --backgr_busi:url(../assets/index_busi.jpg);
+  --backgr_busi2:url(../assets/index_busi2.jpg);
+  --backgr_busi3:url(../assets/index_busi3.jpg);
+  --backgr_busiW:0;
 }

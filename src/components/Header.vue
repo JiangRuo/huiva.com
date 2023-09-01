@@ -11,7 +11,7 @@
     <div class="hear_nav">
       <ul>
         <li class="hear_nav_li" v-for="item in NAV">
-          <router-link to="/login">{{item.name}}</router-link>
+          <router-link to="/">{{item.name}}</router-link>
         </li>
       </ul>
     </div>
