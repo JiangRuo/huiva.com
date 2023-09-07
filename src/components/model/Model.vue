@@ -20,14 +20,24 @@
             <p>产品体验</p>
           </li>
         </ul>
-        <div>
-          <p>40001-12-1212</p>
+        <div class="modal_content_left_p">
+          <p>400-066-2020</p>
         </div>
       </div>
       <div class="modal_content_right">
         <h1>现在开通试用，立享买3年送3年优惠</h1>
         <div>
-          <el-input v-model="input1" class="w-50 m-2" size="large" placeholder="Please Input" :prefix-icon="Search" />
+          <el-input class="w-50 m-2" size="large" placeholder="请输入公司名称/单位名称" />
+          <el-input class="w-50 m-2" size="large" placeholder="请输入您的名字" />
+          <el-input class="w-50 m-2" size="large" placeholder="请输入11位手机号码" />
+          <el-button>立即开通</el-button>
+        </div>
+        <div class="text">
+          <p>吴先生 139****9233 刚刚领取</p>
+          <p>刘先生 139****9233 刚刚领取</p>
+          <p>宋先生 139****9233 刚刚领取</p>
+          <p>李先生 139****9233 刚刚领取</p>
+          <p>周先生 139****9233 刚刚领取</p>
         </div>
       </div>
     </div>
@@ -78,5 +88,114 @@
     transform: translate(-50%, -50%);
     background-color: #fff;
     border-radius: 10px;
+  }
+
+  .modal_content_left {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 3rem 2rem;
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .modal_content_left h1 {
+    margin-bottom: 2rem;
+  }
+
+  .modal_content_left>p {
+    text-align: left;
+    font-size: .9rem;
+    line-height: 2rem;
+  }
+
+  .modal_content_left ul {
+    display: flex;
+    margin-bottom: 3rem;
+  }
+
+  .modal_content_left_p p {
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+
+  .modal_content_right {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 3rem 2rem;
+  }
+
+  .modal_content_right h1 {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .text {
+    text-align: center;
+    background-color: #f7b589;
+    overflow: hidden;
+    height: 1.3rem;
+    border-radius: 10px;
+  }
+
+  .text p {
+    font-size: .9rem;
+    position: relative;
+    color: #333333;
+    animation: name 16s infinite normal;
+  }
+
+  @keyframes name {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    20% {
+      -webkit-transform: translate3d(0, -1.2rem, 0);
+      transform: translate3d(0, -1.2rem, 0);
+    }
+
+    30% {
+      -webkit-transform: translate3d(0, -2.4rem, 0);
+      transform: translate3d(0, -2.4rem, 0);
+    }
+
+    40% {
+      -webkit-transform: translate3d(0, -3.6rem, 0);
+      transform: translate3d(0, -3.6rem, 0);
+    }
+
+    50% {
+      -webkit-transform: translate3d(0, -4.8rem, 0);
+      transform: translate3d(0, -4.8rem, 0);
+    }
+
+    60% {
+      -webkit-transform: translate3d(0, -4.8rem, 0);
+      transform: translate3d(0, -4.8rem, 0);
+    }
+
+    70% {
+      -webkit-transform: translate3d(0, -3.6rem, 0);
+      transform: translate3d(0, -3.6rem, 0);
+    }
+
+    80% {
+      -webkit-transform: translate3d(0, -2.4rem, 0);
+      transform: translate3d(0, -2.4rem, 0);
+    }
+
+    90% {
+      -webkit-transform: translate3d(0, -1.2rem, 0);
+      transform: translate3d(0, -1.2rem, 0);
+    }
+
+    100% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
   }
 </style>
